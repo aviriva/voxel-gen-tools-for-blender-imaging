@@ -1,0 +1,7 @@
+HOW TO INSTALL BLENDER COLORMAPS
+
+1. Navigate to this website: https://github.com/TheJeran/Blender-Colormaps
+2. Click on 'Releases', and download the blender_colormaps_1.2.0.zip file.
+3. Follow the instructions on the GitHub repository!
+4. If you get the Matplotlib MISSING! error, copy in this command to your administrator prompt: "C:\Program Files\Blender Foundation\Blender 4.x\4.x\python\bin\python.exe" -m pip install --target="C:\Program Files\Blender Foundation\Blender 4.x\4.x\python\lib\site-packages" matplotlib
+5. The GitHub has all required resources :)

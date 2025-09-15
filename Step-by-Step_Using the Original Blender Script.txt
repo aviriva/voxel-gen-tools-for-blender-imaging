@@ -1,0 +1,28 @@
+GENERATION
+1. Import the 'generate.py' file to the Scripting tab in a new Blender file. 
+2. Replace the File Name and Path with your desired .npy for BOTH 'lac' and 'mask'. lac is the default parameter, but any npy may be used. This determines the color of the voxel being generated. The rest should remain the same.
+3. Click the 'Play' button, and allow a few seconds for Blender to generate the point cloud.
+4. Click on the 'Layout' tab at the top of the screen. On the right side, hit 'N' on your keypad to open and close a side menu. Choose the 'View' tab, and change the 'Clip End' value from 1000 to 1000000 m. 
+5. Now, if you zoom out, you'll be able to see the point cloud as a series of black dots.
+6. Click on the point cloud to highlight it. On the right side, look for a red icon that looks like a sphere divided into four parts. This is the 'Material' tab for the selected object.
+7. Hit the plus sign to create a new material, or rename the default material, for e.g., to 'Test_Material' or 'Density_Map'.
+8. Open the Shader Editor. With Shift+A, search for a color ramp, and all this into the editor space.
+9. If you have blender_colormaps installed, click on the Color Ramp, go to Tool, and select the desired colormap. Then hit update selected. The color ramp should change to match your chosen map.
+10. Connect the 'Color' node on the Color Ramp to the 'Base Color' node on the Principled BSDF block. You can play around with the other settings for material tweaking to your preference.
+11. Shift+A, search for and add an Attribute block, and connect the Fac node to the Fac on Color Ramp. In the Name space, type 'lac_ves'. This connects the stored color values from the point cloud to the vertices.
+12. Now, click on the Modifiers tab, which looks like a blue wrench in the same vertical line as the Material tab. Add Modifier, and select Geometry Nodes.
+13. Switch the Shader Editor to Geometry Node Editor. You should see Group Input connected to Group Output. Again, press Shift+A to search for and add 'Mesh to Points' between the present blocks. Then, the same way, add the following in order: 'Instance on Points' -> 'Realize Instances' -> 'Set Material'.
+14. Add 'Cube' in free space, and connect the node 'Mesh' to the 'Instance' node on Instances on Points. Leave X, Y, and Z at 1m. 
+15. In 'Set Material', choose the material you just made with the color ramps. 
+16. On the top right of the screen, there are four circles with different shading. Click the third one, which says 'Viewport Shading' when hovered over.
+YOU SHOULD NOW SEE A COLORED MESH!
+
+SMOOTHENING
+1. Click on the 'Cloud_Ves' object, and hit Shift+D, then right click. This creates a duplicate. On the top right, rename it to 'Smooth_Ves'. Click on the eye symbol next to 'Cloud_Ves' to hide it. 
+2. At the modifiers tab, hover your cursor over the geometry node add-in and hit Ctrl+A to apply it. It will disappear. Now, create a new modifier, also in Geometry Nodes.
+3. Insert the following blocks in order: 'Mesh to Points' -> 'Points to Volume' -> 'Volume to Mesh'. Change the following values (you can play around with these): in 'Points to Volume', change Voxel Amount to 512, and change Radius to 1m. This will vary from cell to cell and organelle to organelle. 
+4. Hover over the modifier and click Ctrl+A again to apply it.
+5. Go to the 'Scripting' tab, and import the 'smoothen.py' file. Make sure the Cloud and Smooth objects are named the same as your objects (for e.g., 'Cloud_Ves' and 'Smooth_Ves'). Change the attr variable if required as well (like to 'lac_ves').
+6. Click the play button to run the script. This reassigns the vertex color values to the closest point since the mesh geometry has changed.
+7. Go back to the 'Layout' tab, and check the Materials tab for the Smooth_Ves object.
+8. It may be empty, so click on the sphere with the downward arrow next to it (right next to 'New'), and select your previously created material. The colors should change back to what they were in the initial generation. They will likely look shiny!
