@@ -4,6 +4,8 @@ Blender 4.3+ add-on to convert 3D image stacks into models. Converts binary arra
 
 ### Citation 
 
+Read our preprint, accepted to Structure (Cell Press), [here](https://pmc.ncbi.nlm.nih.gov/articles/PMC12458229/).
+
 Chang K, Deshmukh A, Verma R, Loconte V, White KL. Classifying Biophysical Subpopulations of Insulin Secretory Granules using Quantitative Whole Cell Structure Analysis. bioRxiv [Preprint]. 2025 Sep 15:2025.09.09.675239. doi: 10.1101/2025.09.09.675239. PMID: 41000628; PMCID: PMC12458229.
 
 ### Contents
