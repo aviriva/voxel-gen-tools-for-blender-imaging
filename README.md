@@ -33,7 +33,7 @@ This information is also available in document and video form under [tutorials_d
 ### Step 0: Installation of the Voxel Tools Add-on
 > Download the .zip package from this repository. Extract the contents and locate the add-on file in **voxel-gen-tools-for-blender > add_on_code > add_on_voxel_tools.py**.  
 > Download Blender’s latest version from their website and follow the package installation steps. Open a new General file. The previous contents can be deleted through **A > Delete**.
-<figure> <img src="pictures_screenshots/0.1.png" height="200"> <img src="pictures_screenshots/0.2.png" height="200"/> </figure>  
+<p align="middle"> <img src="pictures_screenshots/0.1.png" height="200"> <img src="pictures_screenshots/0.2.png" height="200"/> </p>  
 Go to **Edit > Preferences > Add-ons** and locate the top right button: Add-ons Settings. Click and select Refresh Local, then Install from Disk… Select the .py file found earlier in the extracted .zip. The add-on will pop up and be pre-selected in the list.
 On the blank screen, click **N** to open the Sidebar. The Voxel Gen Tools tab will appear last. 
 
