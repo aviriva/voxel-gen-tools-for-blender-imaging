@@ -33,7 +33,7 @@ This data was obtained from [BetaSeg](https://betaseg.github.io/).
 
 # Installation and Usage
 
-This information is also available in document and video form under [tutorials_documentation](pictures_screenshots).
+This information is also available in document and video form under [tutorials_documentation](tutorials_documentation).
 
 ## Step 0: Installation of the Voxel Tools Add-on
 
