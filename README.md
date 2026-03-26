@@ -76,3 +76,26 @@ The next tab allows you to adjust the frame size. Personal preferences are a squ
 
 > Blender videos and forums can provide basic starting points for lighting, materials, and camera adjustments to suit the rendering needs.
 
+## Step 2: .npy Files and Inputs
+
+> Refer to the Data Requirements section for details on input files compatible with the current version. Sample code and test data have been provided as well.
+
+The add-on requires 2 input files, both in the .npy array format: 
+
+1.	**Binary Mask**: a black-or-white mask of the objects present. For example, a segmentation mask of the mitochondria in a cell.
+
+<p align="middle"> <img src="pictures_screenshots/1.2.png" height="200"/> <img src="pictures_screenshots/1.3.png" height="200"/> </p>  
+
+3.	**Param Mask**: a grayscale mask of the same shape as the binary mask, which overlays the objects with pre-calculated parameters. For example, the curvature of mitochondria at each vertex.
+
+<p align="middle"> <img src="pictures_screenshots/1.1.png" height="300"/> </p>  
+ 
+The **Auto-fill from Filename** button populates the next step with the saved information in the selected file’s name.
+
+## Step 3: Generating a Point Cloud Voxel Mesh
+
+> This step creates the voxel mesh by inserting a single vertex at each pixel location (x, y, z) in the 3D slice. Through Geometry Nodes, a unit square is generated at each vertex. The point cloud is also assigned a Vertex Group, which essentially assigns each vertex a color based on the param.npy values, and the unit square is colored the same way.
+
+Once the files are selected and auto-fill is clicked, the add-on will assign an **Object Name** to the mesh, an **Attribute Name** to the vertex group, and a **Material Name** to the shader/color map. To create the mesh group, click on the **Generate Voxel Mesh** button. This step may take a few minutes to process. You might need to zoom out a little for the mesh to come into view due to the size (each unit square is 1x1x1 m).
+
+<p align="middle"> <img src="pictures_screenshots/2.1.png" height="300"/> </p>  
