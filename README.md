@@ -33,22 +33,22 @@ This information is also available in document and video form under *tutorials_d
 ### Step 0: Installation of the Voxel Tools Add-on
 > Download the .zip package from this repository. Extract the contents and locate the add-on file in **voxel-gen-tools-for-blender > add_on_code > add_on_voxel_tools.py**.  
 > Download Blender’s latest version from their website and follow the package installation steps. Open a new General file. The previous contents can be deleted through **A > Delete**. 
-![0.1](/pictures_screenshots/0.1.png)
-![0.2](/pictures_screenshots/0.2.png)
+![0.1](/pictures_screenshots/0.1.png) ![0.2](/pictures_screenshots/0.2.png)
 Go to **Edit > Preferences > Add-ons** and locate the top right button: Add-ons Settings. Click and select Refresh Local, then Install from Disk… Select the .py file found earlier in the extracted .zip. The add-on will pop up and be pre-selected in the list.
+![0.3](/pictures_screenshots/0.3.png) ![0.4](/pictures_screenshots/0.4.png)
+On the blank screen, click **N** to open the Sidebar. The Voxel Gen Tools tab will appear last. 
+![0.5](/pictures_screenshots/0.5.png)
 
-On the blank screen, click N to open the Sidebar. The Voxel Gen Tools tab will appear last. 
- 
-
-Step 1: Environment Setup
-Before a mesh may be generated, the environment’s unit system must be set up. With the Sidebar open (N), select the tab View > Clip Start > End, then add 000 to the end to set it to 1000000 m. This is due to large mesh size.
- 
-Add a camera to the scene by clicking Shift + A > Camera. The actual focus can be adjusted later. On the right side of the screen, click on the green camera icon, and adjusted clip end to the same value as the environment (1000000). 
-   
-Add basic lighting to the scene through Shift + A > Light > Sun. Again, on the right side of the screen, click the green light bulb symbol, then change Strength to 5 and Angle to 180 deg. These values can be manipulated for more control and effect. 
-    
-Finally, for basic render settings, go to the Render properties tab. To start, for simplicity, use the EEVEE Engine. Under the Film tab, toggle Transparent to create a background-less render. This allows for control over the effect of backdrop lightning and color. 
-   
+### Step 1: Environment Setup
+Before a mesh may be generated, the environment’s unit system must be set up. With the Sidebar open (N), select the tab **View > Clip Start > End**, then add 000 to the end to set it to **1000000 m**. This is due to the large mesh size.
+![1.5](/pictures_screenshots/1.5.png)
+Add a camera to the scene by clicking **Shift + A > Camera**. The actual focus can be adjusted later. On the right side of the screen, click on the green camera icon, and adjusted clip end to the same value as the environment (1000000). 
+![1.4](/pictures_screenshots/1.4.png) ![1.6](/pictures_screenshots/1.6.png)
+Add basic lighting to the scene through **Shift + A > Light > Sun**. Again, on the right side of the screen, click the green light bulb symbol, then change Strength to **5** and Angle to **180 deg**. These values can be manipulated for more control and effect. 
+![1.7](/pictures_screenshots/1.7.png) ![1.8](/pictures_screenshots/1.8.png)
+Finally, for basic render settings, go to the Render properties tab. To start, for simplicity, use the **EEVEE Engine**. Under the **Film** tab, toggle **Transparent** to create a background-less render. This allows for control over the effect of backdrop lightning and color. 
+![1.9](/pictures_screenshots/1.9.png)
 The next tab allows you to adjust the frame size. Personal preferences are a square screen size of 5120x5120. 
-Blender videos and forums can provide basic starting points for lighting, materials, and camera adjustments to suit the rendering needs.
+![1.10](/pictures_screenshots/1.10.png)
+> Blender videos and forums can provide basic starting points for lighting, materials, and camera adjustments to suit the rendering needs.
 
