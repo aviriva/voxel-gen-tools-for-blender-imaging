@@ -29,11 +29,13 @@ No prior Blender experience is required, and YouTube and StackExchange are ever-
 The images below highlight key renders generated with the various tools provided in this add-on package.
 
 ## Soft X-Ray Tomography (SXT)
+> This data is well-analyzed, quantified, and published throughout our research.
 
 ## Focused Ion Beam Scanning Electron Microscopy (FIB-SEM)
-This data was obtained from [BetaSeg](https://betaseg.github.io/). 
+> This data was obtained from [BetaSeg](https://betaseg.github.io/). 
 
 ## Cryo Electron Tomography (Cryo-ET)
+> This data is novel and preliminary, with analysis currently underway.
 
 ---
 
