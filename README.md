@@ -6,6 +6,11 @@ Blender 4.3+ add-on to convert 3D image stacks into models. Converts binary arra
 
 Chang K, Deshmukh A, Verma R, Loconte V, White KL. Classifying Biophysical Subpopulations of Insulin Secretory Granules using Quantitative Whole Cell Structure Analysis. bioRxiv [Preprint]. 2025 Sep 15:2025.09.09.675239. doi: 10.1101/2025.09.09.675239. PMID: 41000628; PMCID: PMC12458229.
 
+### Contents
+- [Overview and Key Features](#overview)  
+- [Examples Renders across Modalities](#example-renders)  
+    - [SXT](#soft-x-ray-tomography-(sxt))
+
 ### Overview
 
 This Blender add-on is a plus for 3D microscopy visualization, and suits a wide variety of imaging modalities (previously tested with FIB-SEM, Cryo-ET, and SXT)! Convert your segmentation masks and parametrized data into colorful 3D models that provide both *qualitative* and *quantitative* visual patterns.  
