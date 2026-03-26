@@ -193,14 +193,14 @@ For best results, ensure the shapes of both the binary and param masks match so 
 
 ### NPY Scripts Description
 
-**mrc_2_stl**: converts a binary segmentation mask of a 3D image stack into a triangulated mesh with the .stl extension for direct import into any 3D modeling software.
+> - **mrc_2_stl**: converts a binary segmentation mask of a 3D image stack into a triangulated mesh with the .stl extension for direct import into any 3D modeling software.
 
-**csv_2_json**: converts data from CSV to JSON format for use in the npy generation functions (currently specific to our data but can be used as a map for other datasets).
+> - **csv_2_json**: converts data from CSV to JSON format for use in the npy generation functions (currently specific to our data but can be used as a map for other datasets).
 
-**image_2_npy**: maps the raw grayscale values of the original image onto the segmentation mask only where the desired objects are present.
+> - **image_2_npy**: maps the raw grayscale values of the original image onto the segmentation mask only where the desired objects are present.
 
-**continuous_2_npy**: finds individual objects within the binary segmentation mask and assigns pre-calculated values within a continuous range normalized from 0 to 1 to those objects from the JSON. 
+> - **continuous_2_npy**: finds individual objects within the binary segmentation mask and assigns pre-calculated values within a continuous range normalized from 0 to 1 to those objects from the JSON. 
 
-**discrete_2_npy**: assigns discrete, integer-based binary or multiple group numbers to individual objects as extracted from the analysis JSON, usually for clusters or Booleans. 
+> - **discrete_2_npy**: assigns discrete, integer-based binary or multiple group numbers to individual objects as extracted from the analysis JSON, usually for clusters or Booleans. 
 
 Each npy generator will output both a binary mask and a param mask for import to the Blender add-on. The image_2_npy function should work for most raw images and segmented masks. The continuous and discrete functions are currently specific to our data but may be used as a baseline for other similar parametric datasets. Please go over all the set constants and inputs for these code functions before use. Test data is provided to ensure the base code functions as intended. 
