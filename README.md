@@ -8,8 +8,9 @@ Chang K, Deshmukh A, Verma R, Loconte V, White KL. Classifying Biophysical Subpo
 
 ### Contents
 - [Overview and Key Features](#overview)  
-- [Examples Renders across Modalities](#example-renders)  
-    - [SXT](#soft-x-ray-tomography-(sxt))
+- [Examples Renders across Modalities](#example-renders)
+- [Installation and Usage Guidelines](#installation-and-usage)
+    - [0: Installation of the Voxel Tools Add-on](#step-0:-installation-of-the-voxel-tools-add-on)
 
 ### Overview
 
