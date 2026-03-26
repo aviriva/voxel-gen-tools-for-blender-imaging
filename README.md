@@ -13,6 +13,8 @@ This Blender add-on is a plus for 3D microscopy visualization, and suits a wide 
 - Base code for data preparation and file conversion.
 No prior Blender experience is required, and YouTube and StackExchange are ever-present helpers.
 
+---
+
 # Example Renders
 The images below highlight key renders generated with the various tools provided in this add-on package.
 
