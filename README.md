@@ -28,7 +28,7 @@ This data was obtained from [BetaSeg](https://betaseg.github.io/).
 ---
 
 # Installation and Usage
-This information is also available in document and video form under *tutorials_documentation*.
+This information is also available in document and video form under [tutorials_documentation](pictures_screenshots).
 
 ### Step 0: Installation of the Voxel Tools Add-on
 > Download the .zip package from this repository. Extract the contents and locate the add-on file in **voxel-gen-tools-for-blender > add_on_code > add_on_voxel_tools.py**.  
