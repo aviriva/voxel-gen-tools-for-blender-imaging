@@ -35,7 +35,7 @@ This data was obtained from [BetaSeg](https://betaseg.github.io/).
 
 This information is also available in document and video form under [tutorials_documentation](pictures_screenshots).
 
-### Step 0: Installation of the Voxel Tools Add-on
+## Step 0: Installation of the Voxel Tools Add-on
 
 > Download the .zip package from this repository. Extract the contents and locate the add-on file in **voxel-gen-tools-for-blender > add_on_code > add_on_voxel_tools.py**.
 
@@ -52,7 +52,7 @@ On the blank screen, click **N** to open the Sidebar. The Voxel Gen Tools tab wi
 
 <p align="middle"> <img src="pictures_screenshots/0.5.png" width="500"/> </p>  
 
-### Step 1: Environment Setup
+## Step 1: Environment Setup
 
 Before a mesh may be generated, the environment’s unit system must be set up. With the Sidebar open (N), select the tab **View > Clip Start > End**, then add 000 to the end to set it to **1000000 m**. This is due to the large mesh size.
 
