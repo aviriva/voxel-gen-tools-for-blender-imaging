@@ -1,10 +1,13 @@
 # Voxel Gen Tools for 3D Visualization in Blender
+
 Blender 4.3+ add-on to convert 3D image stacks into models. Converts binary arrays into colormapped structures representing quantitative parameters or datasets. Built to analyze variations and patterns for segmented imaging data.
 
 ### Citation 
+
 Chang K, Deshmukh A, Verma R, Loconte V, White KL. Classifying Biophysical Subpopulations of Insulin Secretory Granules using Quantitative Whole Cell Structure Analysis. bioRxiv [Preprint]. 2025 Sep 15:2025.09.09.675239. doi: 10.1101/2025.09.09.675239. PMID: 41000628; PMCID: PMC12458229.
 
 ### Overview
+
 This Blender add-on is a plus for 3D microscopy visualization, and suits a wide variety of imaging modalities (previously tested with FIB-SEM, Cryo-ET, and SXT)! Convert your segmentation masks and parametrized data into colorful 3D models that provide both *qualitative* and *quantitative* visual patterns.  
 
 *Key Features*
@@ -16,6 +19,7 @@ No prior Blender experience is required, and YouTube and StackExchange are ever-
 ---
 
 # Example Renders
+
 The images below highlight key renders generated with the various tools provided in this add-on package.
 
 ## Soft X-Ray Tomography (SXT)
@@ -28,14 +32,25 @@ This data was obtained from [BetaSeg](https://betaseg.github.io/).
 ---
 
 # Installation and Usage
+
 This information is also available in document and video form under [tutorials_documentation](pictures_screenshots).
 
 ### Step 0: Installation of the Voxel Tools Add-on
-> Download the .zip package from this repository. Extract the contents and locate the add-on file in **voxel-gen-tools-for-blender > add_on_code > add_on_voxel_tools.py**.  
+
+> Download the .zip package from this repository. Extract the contents and locate the add-on file in **voxel-gen-tools-for-blender > add_on_code > add_on_voxel_tools.py**.
+
 > Download Blender’s latest version from their website and follow the package installation steps. Open a new General file. The previous contents can be deleted through **A > Delete**.
-<p align="middle"> <img src="pictures_screenshots/0.1.png" height="200"> <img src="pictures_screenshots/0.2.png" height="200"/> </p>  
+
+<p align="middle"> <img src="pictures_screenshots/0.1.png" height="200"/> <img src="pictures_screenshots/0.2.png" height="200"/> </p>  
+
 Go to **Edit > Preferences > Add-ons** and locate the top right button: Add-ons Settings. Click and select Refresh Local, then Install from Disk… Select the .py file found earlier in the extracted .zip. The add-on will pop up and be pre-selected in the list.
+
+<p align="middle"> <img src="pictures_screenshots/0.3.png" width="500"/> </p>  
+<p align="middle"> <img src="pictures_screenshots/0.4.png" width="500"/> </p>  
+
 On the blank screen, click **N** to open the Sidebar. The Voxel Gen Tools tab will appear last. 
+
+<p align="middle"> <img src="pictures_screenshots/0.5.png" width="500"/> </p>  
 
 ### Step 1: Environment Setup
 Before a mesh may be generated, the environment’s unit system must be set up. With the Sidebar open (N), select the tab **View > Clip Start > End**, then add 000 to the end to set it to **1000000 m**. This is due to the large mesh size.
