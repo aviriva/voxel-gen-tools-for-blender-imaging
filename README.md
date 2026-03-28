@@ -36,7 +36,8 @@ The images below highlight key renders generated with the various tools provided
 > This data is well-analyzed, quantified, and published throughout our research.
 
 ## Focused Ion Beam Scanning Electron Microscopy (FIB-SEM)
-> This data was obtained from [BetaSeg](https://betaseg.github.io/). 
+> This data was obtained from [BetaSeg](https://betaseg.github.io/).
+<p align="middle"> <img src="pictures_screenshots/sem_all.png"/> </p>  
 
 ## Cryo Electron Tomography (Cryo-ET)
 > This data is novel and preliminary, with analysis currently underway.
