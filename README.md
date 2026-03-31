@@ -10,6 +10,8 @@ Read our preprint, accepted to Structure (Cell Press), [here](https://pmc.ncbi.n
 Chang K, Deshmukh A, Verma R, Loconte V, White KL. Classifying Biophysical Subpopulations of Insulin Secretory Granules using Quantitative Whole Cell Structure Analysis. bioRxiv [Preprint]. 2025 Sep 15:2025.09.09.675239. doi: 10.1101/2025.09.09.675239. PMID: 41000628; PMCID: PMC12458229.
 ```
 
+<p align="middle"> <img src="pictures_screenshots/sem_all.png"/> </p>  
+
 ### Contents
 - [Overview and Key Features](#overview)  
 - [Examples Renders across Modalities](#example-renders)
