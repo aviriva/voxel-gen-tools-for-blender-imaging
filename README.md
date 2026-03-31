@@ -206,6 +206,9 @@ For best results, ensure the shapes of both the binary and param masks match so 
 
 > - **image_2_npy**: maps the raw grayscale values of the original image onto the segmentation mask only where the desired objects are present.
 
+> - **param_2_npy**: maps calculated object parameters from a dataset onto the image mask, for continuous and discrete value.
+
+**OLDER CODE**
 > - **continuous_2_npy**: finds individual objects within the binary segmentation mask and assigns pre-calculated values within a continuous range normalized from 0 to 1 to those objects from the JSON. 
 
 > - **discrete_2_npy**: assigns discrete, integer-based binary or multiple group numbers to individual objects as extracted from the analysis JSON, usually for clusters or Booleans. 
