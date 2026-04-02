@@ -44,7 +44,7 @@ The images below highlight key renders generated with the various tools provided
 ## Cryo Electron Tomography (Cryo-ET)
 > This data is novel and preliminary, with analysis currently underway.
 *More images coming soon!*
-<p align="middle"> <img src="pictures_screenshots/low_res_cryo.png"/> </p>  
+<p align="middle"> <img src="pictures_screenshots/stylization.png"/> </p>  
 
 ---
 
