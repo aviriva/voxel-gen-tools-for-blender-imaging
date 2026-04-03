@@ -36,6 +36,7 @@ The images below highlight key renders generated with the various tools provided
 
 ## Soft X-Ray Tomography (SXT)
 > This data is well-analyzed, quantified, and published throughout our research.
+<p align="middle"> <img src="pictures_screenshots/sxt_ves_mito.png"/> </p>  
 
 ## Focused Ion Beam Scanning Electron Microscopy (FIB-SEM)
 > This data was obtained from [BetaSeg](https://betaseg.github.io/).
